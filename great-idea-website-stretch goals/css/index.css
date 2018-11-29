@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h4, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+
+
+/* Header */
+
+
+nav {
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+    background-color: #6FB9E8;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+	width: 876px; /* Full width */
+	border: 1px solid red;
+}
+nav a {
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	height: 50%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.logo {
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+/* Get Started */
+.main {
+	height: 400px;
+	width: 100%;
+	
+}
+
+.get-started {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	border-bottom: 1px solid black;
+	float: left;
+	
+}
+
+#get-started {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+#get-started h1 {
+	font-size: 4em;
+	padding-top: 100px;
+}
+
+#get-started a {
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.get-started img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+}
+
+/* About */
+.about {
+	display: inline-block;
+	height: 200px;
+	width: 50%;
+	float: left;
+	padding-top:40px;
+	padding-right: 40px;
+	font-size: 1em;
+}
+
+#services, #vision, #product {
+	width: 33%;
+}
+
+main {
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 600px;
+}
+
+#contact {
+	padding-top: 40px;
+}
+
+footer p {
+	padding-top: 40px;
+	text-align: center;
+}
