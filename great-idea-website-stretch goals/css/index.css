@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu {
 	display: block;
 }
 body {
@@ -75,7 +75,6 @@ body {
 
 
 nav {
-	display: inline-block;
 	padding: 0;
 	height: 40px;
 	overflow: hidden;
@@ -83,7 +82,8 @@ nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
 	width: 876px; /* Full width */
-	border: 1px solid red;
+	border-bottom:; 1px solid black;
+	margin-bottom: 20px;
 }
 nav a {
 	padding: 20px;
@@ -92,73 +92,82 @@ nav a {
 	height: 50%;
 	margin: auto;
 	padding-bottom: 40px;
+	border-right: .5px solid black;
+}
+
+nav a:hover {
+	background: white;
+	color: #6FB9E8;
+	border: .5px solid black;
 }
 
 .logo {
-	margin: 0 auto;
-	padding: 0;
-	padding-left: 100px;
-	display: inline-block;
+	right: 0;
+	padding-left: -50px;
+	
+	
 }
 
 /* Get Started */
 .main {
 	height: 400px;
 	width: 100%;
+	border-bottom: 1px solid black;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	
 }
 
 .get-started {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	height: 100%;
-	border-bottom: 1px solid black;
-	float: left;
+	text-align: center;
+	padding: 0;
+	margin: 0 auto;
+	
 	
 }
 
-#get-started {
-	text-align: center;
-	margin: auto;
-	width: 50%;
-}
 
-#get-started h1 {
+
+.get-started h1 {
 	font-size: 4em;
-	padding-top: 100px;
+	height: 50%;
 }
 
-#get-started a {
+.get-started a {
 	border: 1px solid black;
 	color: black;
 	text-decoration: none;
-	display: inline-block;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.get-started img {
+.main img {
 	display: inline-block;
-	width: 100%;
-	height: 100%;
-	padding: 40px;
+	width: 42%;
+	height: 90%;
+	margin: 0 auto;
+	padding-top: 60px;
+	
 }
 
 /* About */
 .about {
 	display: inline-block;
-	height: 200px;
-	width: 50%;
-	float: left;
-	padding-top:40px;
-	padding-right: 40px;
+	height: 30%;
+	width: 48%;
+	margin-right: 10px;
 	font-size: 1em;
 }
 
 #services, #vision, #product {
-	width: 33%;
+	display: inline-block;
+	width: 30%;
+	margin-top: 20px;
 }
 
 main {
@@ -168,10 +177,15 @@ main {
 }
 
 #contact {
-	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+.middle-image {
+	display: inline-block;
+	margin-bottom: 60px;
 }
 
 footer p {
-	padding-top: 40px;
+	
 	text-align: center;
 }
